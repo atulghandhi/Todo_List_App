@@ -7,9 +7,21 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  background: #1e1e1e;
 }
 
 a {
   color: #333;
   text-decoration: none;
+}
+
+.container{
+ padding: 0 10px;
+}
+
+.input{
+  background:#2d2d2d;
+  border:none;
+  color:#e6e6e6;
+  padding:15px;
 }
