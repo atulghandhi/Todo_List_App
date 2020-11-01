@@ -25,3 +25,9 @@ a {
   color:#e6e6e6;
   padding:15px;
 }
+
+.navBar{
+  font-weight: 900;
+  color: #6666ff;
+  margin: 0 5px;
+}

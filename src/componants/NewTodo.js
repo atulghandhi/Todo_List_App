@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import PropTypes from "prop-types";
+import Todos from "./Todos";
 
 class NewTodo extends Component {
     state = {
@@ -51,6 +53,11 @@ const buttonStyle = {
     fontWeight:'900',
     fontSize:'16px',
     flex:'1'
+}
+
+//prop types in NewTodo file
+NewTodo.propTypes = {
+    newTodo: PropTypes.func.isRequired,
 }
 
 export default NewTodo;
